@@ -1,0 +1,12 @@
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+coverage/
+
+# Ignore RubyMine files.
+.idea/
+
+# Ignore Dotenv files.
+.env
