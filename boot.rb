@@ -13,5 +13,6 @@ require 'dotenv'
 Dotenv.load
 
 Dir['app/{**, **/**}/*.rb'].sort.each {|file| require File.expand_path(file) }
+Dir['config/initializers/{**, **/**}/*.rb'].sort.each {|file| require File.expand_path(file) }
 
 require './app'
