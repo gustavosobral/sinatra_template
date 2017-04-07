@@ -16,3 +16,9 @@ end
 group :development do
   gem 'shotgun'
 end
+
+group :test do
+  gem 'airborne'
+  gem 'rspec'
+  gem 'simplecov', require: false
+end
