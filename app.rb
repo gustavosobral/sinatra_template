@@ -1,5 +1,7 @@
 # Sinatra APP
 class MyApp < Sinatra::Base
+  use Rack::PostBodyContentTypeParser
+
   register Sinatra::Namespace
 
   set :raise_errors, false

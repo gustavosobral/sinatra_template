@@ -4,6 +4,7 @@ ruby '2.4.0'
 gem 'activesupport'
 gem 'dotenv'
 gem 'puma'
+gem 'rack-contrib'
 gem 'sinatra'
 gem 'sinatra-contrib'
 
