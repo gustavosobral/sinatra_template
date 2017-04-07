@@ -5,6 +5,7 @@ gem 'activesupport'
 gem 'dotenv'
 gem 'puma'
 gem 'rack-contrib'
+gem 'rake'
 gem 'sinatra'
 gem 'sinatra-contrib'
 
