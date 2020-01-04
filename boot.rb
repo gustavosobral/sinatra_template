@@ -8,7 +8,8 @@ require 'sinatra/namespace'
 require 'sinatra/json'
 
 require 'active_support/concern'
-require 'dotenv'
+require 'active_support/core_ext/time'
+require 'active_support/core_ext/string'
 
 Dotenv.load
 
